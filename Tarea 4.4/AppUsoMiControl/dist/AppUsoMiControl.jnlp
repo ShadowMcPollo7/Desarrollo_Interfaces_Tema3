@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppUsoMiControl.jnlp">
+  <information>
+    <title>AppUsoMiControl</title>
+    <vendor>raul-</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AppUsoMiControl.jar" size="5527" download="eager" />
+    <jar href="lib\ProyectoMiControl.jar" size="3974" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AppUsoMiControl" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="appusomicontrol.AppUsoMiControl"  name="AppUsoMiControl" />
+  <update check="always"/>
+</jnlp>
